@@ -1,0 +1,76 @@
+======================================================================
+DRONE THREAT REPORT
+======================================================================
+
+Video Name           : video_04
+Total Frames         : 428
+Track IDs            : [8, 9, 10, 17, 24, 28]
+MOTION STATISTICS
+----------------------------------------
+Track 8
+Average Speed        : 10.83
+Maximum Speed        : 23.97
+Average Acceleration : 0.20
+Maximum Acceleration : 18.04
+Track Duration       : 30 frames
+
+Track 9
+Average Speed        : 6.08
+Maximum Speed        : 18.26
+Average Acceleration : 0.14
+Maximum Acceleration : -16.28
+Track Duration       : 7 frames
+
+Track 10
+Average Speed        : 15.37
+Maximum Speed        : 61.54
+Average Acceleration : 0.17
+Maximum Acceleration : -43.01
+Track Duration       : 43 frames
+
+Track 17
+Average Speed        : 8.55
+Maximum Speed        : 20.34
+Average Acceleration : 6.78
+Maximum Acceleration : 15.03
+Track Duration       : 3 frames
+
+Track 24
+Average Speed        : 12.79
+Maximum Speed        : 197.72
+Average Acceleration : 0.18
+Maximum Acceleration : -186.41
+Track Duration       : 177 frames
+
+Track 28
+Average Speed        : 14.77
+Maximum Speed        : 42.93
+Average Acceleration : 6.13
+Maximum Acceleration : 29.01
+Track Duration       : 7 frames
+
+======================================================================
+LSTM PREDICTION SUMMARY
+======================================================================
+
+FIRST PREDICTION
+Frame +1: (877.21, 540.24)
+Frame +2: (877.43, 540.31)
+Frame +3: (877.74, 540.50)
+Frame +4: (878.15, 540.54)
+Frame +5: (878.60, 540.58)
+
+LAST PREDICTION
+Frame +1: (1091.97, 431.56)
+Frame +2: (1092.12, 431.43)
+Frame +3: (1092.27, 431.42)
+Frame +4: (1092.49, 431.38)
+Frame +5: (1092.67, 431.33)
+
+======================================================================
+THREAT ASSESSMENT
+======================================================================
+
+Threat Level : HIGH
+Threat Score : 75/100
+
