@@ -1,6 +1,5 @@
 from ultralytics import YOLO
 
-
 class DroneTracker:
 
     def __init__(self, model_path):

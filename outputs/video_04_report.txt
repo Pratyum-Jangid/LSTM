@@ -4,61 +4,38 @@ DRONE THREAT REPORT
 
 Video Name           : video_04
 Total Frames         : 428
-Track IDs            : [8, 9, 10, 17, 24, 28]
-MOTION STATISTICS
+Detected Frames      : 338 (79.0%)
+Tracked Frames       : 258 (60.3%)
+Track Segments       : [4] (same drone, ID resets due to dropout)
+Raw id map           : {4: 4, 7: 4, 9: 4}
+
+MOTION STATISTICS (merged — single drone)
 ----------------------------------------
-Track 8
-Average Speed        : 10.83
-Maximum Speed        : 23.97
-Average Acceleration : 0.20
-Maximum Acceleration : 18.04
-Track Duration       : 30 frames
+Average Speed        : 15.69 px/frame
+Average Acceleration : 0.12 px/frame²
+Track Duration       : 258 frames
 
-Track 9
-Average Speed        : 6.08
-Maximum Speed        : 18.26
-Average Acceleration : 0.14
-Maximum Acceleration : -16.28
-Track Duration       : 7 frames
-
-Track 10
-Average Speed        : 15.37
-Maximum Speed        : 61.54
-Average Acceleration : 0.17
-Maximum Acceleration : -43.01
-Track Duration       : 43 frames
-
-Track 17
-Average Speed        : 8.55
-Maximum Speed        : 20.34
-Average Acceleration : 6.78
-Maximum Acceleration : 15.03
-Track Duration       : 3 frames
-
-Track 24
-Average Speed        : 12.79
-Maximum Speed        : 197.72
-Average Acceleration : 0.18
-Maximum Acceleration : -186.41
-Track Duration       : 177 frames
-
-Track 28
-Average Speed        : 14.77
-Maximum Speed        : 42.93
-Average Acceleration : 6.13
-Maximum Acceleration : 29.01
-Track Duration       : 7 frames
+SEGMENT BREAKDOWN
+----------------------------------------
+  Segment (Track 4): frames 34–428, duration 258 frames
 
 ======================================================================
 LSTM PREDICTION SUMMARY
 ======================================================================
 
 FIRST PREDICTION
-Frame +1: (877.21, 540.24)
-Frame +2: (877.43, 540.31)
-Frame +3: (877.74, 540.50)
-Frame +4: (878.15, 540.54)
-Frame +5: (878.60, 540.58)
+Frame +1: (902.57, 558.31)
+Frame +2: (902.77, 558.37)
+Frame +3: (902.97, 558.54)
+Frame +4: (903.23, 558.60)
+Frame +5: (903.53, 558.63)
+
+MIDDLE PREDICTION
+Frame +1: (1078.07, 669.01)
+Frame +2: (1077.91, 669.08)
+Frame +3: (1077.85, 669.11)
+Frame +4: (1077.65, 669.09)
+Frame +5: (1077.45, 669.04)
 
 LAST PREDICTION
 Frame +1: (1091.97, 431.56)
@@ -68,9 +45,14 @@ Frame +4: (1092.49, 431.38)
 Frame +5: (1092.67, 431.33)
 
 ======================================================================
-THREAT ASSESSMENT
+THREAT ASSESSMENT (merged — single drone)
 ======================================================================
 
 Threat Level : HIGH
-Threat Score : 75/100
+Threat Score : 73/100
+Reasons      :
+  - High average motion.
+  - Very high peak motion.
+  - Aggressive maneuver detected.
+  - Object tracked for significant duration.
 
